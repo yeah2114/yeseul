@@ -1,0 +1,25 @@
+{
+    "project":[
+        {
+            "tit":"FITGONG",
+            "imgSrc":"icon/logoBg2.png",
+            "site":"https://yeah2114.github.io/fitgong/"
+        },
+        {
+            "tit":"AIMON",
+            "imgSrc":"icon/aimonLogo.png",
+            "site":"https://yeah2114.github.io/aimon/"
+        },
+        {
+            "tit":"AIMON ADMIN",
+            "imgSrc":"icon/aimonLogo.png",
+            "site":"https://yeah2114.github.io/aimonAdmin/"
+        },
+        {
+            "tit":"AIMON TEACHER",
+            "imgSrc":"icon/aimonLogo.png",
+            "site":"https://yeah2114.github.io/aimonTeacher/"
+        }
+        
+    ]
+}

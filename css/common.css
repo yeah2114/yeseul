@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #fffaeb;
+}
+
+body header,
+body main,
+body footer
+body img{
+    opacity: 0;
+    transition: .5s;
+}
+
+body.active header,
+body.active main,
+body.active footer{
+    opacity: 1;
+    transform: .5s;
+}
+
+.fl.active{
+   opacity: 1;
+   
+}
+.fl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition:.5s;
+    animation: rot 2s linear infinite;
+}
+
+/* keyframes 정의 */
+@keyframes rot {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* header */
+header {
+    padding: 50px 60px;
+    background: #fffaeb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 800;
+
+}
+
+header h1 a {
+    display: inline-block;
+    width: 15%;
+}
+
+
+
+
+
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 50px;
+    border-top: 1px solid #ff9292;
+    width: 100%;
+    text-align: center;
+    background: #fffaeb;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav a.active {
+    color: #ff9292;
+}
+
+
+
+
+/* footer */
+footer {
+    height: 123px;
+}
+
+
+
+
+/* mobile */
+@media (max-width:480px) {
+    header {
+        padding: 20px 20px;
+        background: #fffaeb;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 800;
+    }
+
+    header h1 a {
+        display: inline-block;
+        width: 15%;
+    }
+
+    header h1 a img {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 997;
+        padding: 10px;
+        border-top: 1px solid #ff9292;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        background: #fffaeb;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 0 25px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    footer {
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+/* tablet01 */
+@media (min-width:768px) and (max-width:1024px) {
+    header {
+        padding: 50px 60px;
+        background: #fffaeb;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 800;
+    }
+
+    header h1 a {
+        display: inline-block;
+        width: 10%;
+    }
+
+    header h1 a img {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 997;
+        padding: 20px;
+        border-top: 1px solid #ff9292;
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        background: #fffaeb;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 0 25px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    footer {
+        height: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+/* tablet 03 */
+@media (min-width:1025px) and (max-width:1366px) {
+    header {
+        padding: 30px 30px;
+        background: #fffaeb;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 800;
+    }
+
+    header h1 a {
+        display: inline-block;
+        width: 5%;
+    }
+
+    header h1 a img {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 997;
+        padding: 10px;
+        border-top: 1px solid #ff9292;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        background: #fffaeb;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 0 25px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    footer {
+        height: 70px;
+    }
+}

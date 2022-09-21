@@ -1,0 +1,22 @@
+{
+    "project":[
+        {
+            "tit":"PORTFOLIO",
+            "imgSrc":"icon/project.png",
+            "detail":"icon/portflio-detail.png",
+            "site":"https://yeah2114.github.io/portfolio/"
+        },
+        {
+            "tit":"HAILLI",
+            "imgSrc":"icon/hailli.jpg",
+            "detail":"icon/hailli-detail.png",
+            "site":"https://yeah2114.github.io/project/"
+        },
+        {
+            "tit":"SUNNY",
+            "imgSrc":"icon/sunny.png",
+            "detail":"icon/sunny-detail.png","site":"https://yeah2114.github.io/sunny/"
+        }
+        
+    ]
+}

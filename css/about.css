@@ -1,0 +1,1020 @@
+@import url("common.css");
+
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*page1*/
+.page1 {
+    margin: 150px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.page1 article {
+    text-align: center;
+    margin: 5px;
+    padding: 0 70px;
+}
+
+.page1 article h2 {
+    white-space: pre-line;
+    margin: 20px;
+}
+
+.page1 article p {
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.page1 article span {
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    animation: rotate 3s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.detail {}
+
+.detail div {
+    margin: 35px;
+}
+
+
+
+
+/*infomation*/
+.info {}
+
+.info p {
+    font-size: 24px;
+}
+
+.info p strong {
+    display: inline-block;
+    width: 130px;
+}
+
+
+
+
+
+/*education*/
+.edu {}
+
+.edu strong {
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.edu p {
+    padding: 2px;
+}
+
+.edu p span {
+    display: inline-block;
+    width: 160px;
+}
+
+
+
+
+
+
+/*career*/
+.career {}
+
+.career strong {
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.career p {
+    padding: 2px;
+}
+
+.career p span {
+    display: inline-block;
+    width: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*page2*/
+.page2 {
+    display: inline-block;
+    margin: 0px auto;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.page2 div {
+    margin: 0 auto;
+}
+
+.page2 strong {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 440px;
+}
+
+
+
+
+
+/*design skill*/
+.design {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px dashed #a9a9a9;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+.design p {
+    width: 35%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.design p small {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    white-space: pre-line;
+}
+
+.design p span {
+    display: inline-block;
+    border-radius: 100%;
+    background: #ff9292;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+.design p:nth-of-type(1) span:nth-of-type(4),
+.design p:nth-of-type(1) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.design p:nth-of-type(2) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.design p:nth-of-type(3) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.design p:nth-of-type(4) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+
+
+
+
+/*hard skill*/
+.hard {
+    width: 80%;
+    margin: 15px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px dashed #a9a9a9;
+    padding: 15px 0;
+    padding-left: 50px;
+}
+
+.hard p {
+    width: 35%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hard p small {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    white-space: pre-line;
+}
+
+.hard p span {
+    display: inline-block;
+    border-radius: 100%;
+    background: #ff9292;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+.hard p:nth-of-type(1) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.hard p:nth-of-type(2) span:nth-of-type(4),
+.hard p:nth-of-type(2) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.hard p:nth-of-type(3) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+
+
+
+/*soft skill*/
+.soft {
+    width: 80%;
+    margin: 15px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0;
+    padding-left: 50px;
+}
+
+.soft p {
+    width: 35%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.soft p small {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    white-space: pre-line;
+}
+
+.soft p span {
+    display: inline-block;
+    border-radius: 100%;
+    background: #ff9292;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+.soft p:nth-of-type(1) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.soft p:nth-of-type(2) span:nth-of-type(4),
+.soft p:nth-of-type(2) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.soft p:nth-of-type(3) span:nth-of-type(4),
+.soft p:nth-of-type(3) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.soft p:nth-of-type(4) span:nth-of-type(4),
+.soft p:nth-of-type(4) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+.soft p:nth-of-type(5) span:nth-of-type(4),
+.soft p:nth-of-type(5) span:nth-of-type(5) {
+    background: #ffdbce;
+}
+
+
+
+
+
+
+
+
+
+/*mobile*/
+@media (max-width:480px) {
+    .page1 {
+        margin: 0 auto;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .page1 article {
+        text-align: center;
+        margin: 0px;
+        margin-top: 80px;
+        padding: 0 15px;
+    }
+
+    .page1 article h2 {
+        white-space: pre-line;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .page1 article p {
+        white-space: pre-line;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .page1 article p img {
+        width: 80%;
+    }
+
+    .page1 article span {
+        position: absolute;
+        top: 110px;
+        left: 60px;
+        animation: rotate 3s linear infinite;
+        transform-origin: 50% 50%;
+    }
+
+
+
+
+
+    .detail div {
+        margin: 40px 15px;
+    }
+
+
+
+
+
+    /*infomation*/
+    .info p {
+        font-size: 18px;
+        white-space: pre-line;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .info p strong {
+        display: inline-block;
+        width: 130px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+    /*education*/
+    .edu {
+        text-align: center;
+    }
+
+    .edu strong {
+        display: inline-block;
+        font-size: 18px;
+        margin: 30px 0;
+        margin-top: 70px;
+    }
+
+    .edu p {
+        padding: 0px;
+        padding-bottom: 20px;
+        white-space: pre-line;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .edu p span {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+    /*career*/
+    .career {
+        text-align: center;
+    }
+
+    .career strong {
+        display: inline-block;
+        font-size: 18px;
+        margin-bottom: 0px;
+        margin: 30px 0;
+        margin-top: 30px;
+    }
+
+    .career p {
+        padding: 0px;
+        padding-bottom: 20px;
+        white-space: pre-line;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .career p span {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    /*page2*/
+    .page2 {
+        display: inline-block;
+        margin: 0px auto;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .page2 div {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .page2 strong {
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+
+
+
+
+    /*design skill*/
+    .design {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-bottom: 1px dashed #a9a9a9;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .design p {
+        white-space: pre-line;
+        width: 100%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .design p small {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .design p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 13px;
+        height: 13px;
+        margin: 5px 0;
+    }
+
+
+
+
+
+
+    /*hard skill*/
+    .hard {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-bottom: 1px dashed #a9a9a9;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .hard p {
+        white-space: pre-line;
+        width: 100%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .hard p small {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .hard p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 13px;
+        height: 13px;
+        margin: 5px 0;
+    }
+
+
+
+
+
+
+    /*soft skill*/
+    .soft {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .soft p {
+        white-space: pre-line;
+        width: 100%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .soft p small {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .soft p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 13px;
+        height: 13px;
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+
+
+
+/* tablet01 */
+@media (min-width:768px) and (max-width:1024px) {
+    .page1 {
+        margin: 0 auto;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .page1 article {
+        text-align: center;
+        margin: 0px;
+        margin-top: 150px;
+        padding: 0 15px;
+    }
+
+    .page1 article h2 {
+        white-space: pre-line;
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    .page1 article p {
+        white-space: pre-line;
+        line-height: 1.8;
+        font-size: 25px;
+    }
+
+    .page1 article p img {
+        width: 40%;
+    }
+
+    .page1 article span {
+        position: absolute;
+        top: 200px;
+        left: 350px;
+        animation: rotate 3s linear infinite;
+        transform-origin: 50% 50%;
+    }
+
+
+
+
+
+
+
+
+    /*infomation*/
+    .info {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .info p {
+        font-size: 30px;
+        white-space: pre-line;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .info p strong {
+        display: inline-block;
+        width: 130px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+    /*education*/
+    .edu {
+        text-align: center;
+    }
+
+    .edu strong {
+        display: inline-block;
+        font-size: 30px;
+        margin: 30px 0;
+        margin-top: 70px;
+    }
+
+    .edu p {
+        padding: 0px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        line-height: 1.5;
+        white-space: pre-line;
+        margin-bottom: 15px;
+    }
+
+    .edu p span {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 5px;
+        font-weight: 500;
+        margin-right: 30px;
+    }
+
+
+
+
+
+
+    /*career*/
+    .career {
+        text-align: center;
+    }
+
+    .career strong {
+        display: inline-block;
+        font-size: 30px;
+        margin: 30px 0;
+        margin-top: 70px;
+    }
+
+    .career p {
+        padding: 0px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        line-height: 1.5;
+        white-space: pre-line;
+        margin-bottom: 15px;
+    }
+
+    .career p span {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 5px;
+        font-weight: 500;
+        margin-right: 30px;
+    }
+
+
+
+
+
+
+    /*page2*/
+    .page2 {
+        display: inline-block;
+        margin: 50px 35px;
+        margin-bottom: 0;
+        display: block;
+        text-align: center;
+    }
+
+
+    .page2 strong {
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+
+
+
+
+    /*design skill*/
+    .design {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-bottom: 1px dashed #a9a9a9;
+        padding-bottom: 25px;
+        padding-left: 0px;
+    }
+
+    .design p {
+        width: 100%;
+        padding: 30px 0;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .design p small {
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .design p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 15px;
+        height: 15px;
+        margin: 5px 0;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+    /*hard skill*/
+    .hard {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-bottom: 1px dashed #a9a9a9;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+
+    .hard p {
+        width: 100%;
+        padding: 30px 0;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .hard p small {
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .hard p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 15px;
+        height: 15px;
+        margin: 5px 0;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+    /*soft skill*/
+    .soft {
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-bottom: 1px dashed #a9a9a9;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+
+    .soft p {
+        width: 100%;
+        padding: 30px 0;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .soft p small {
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .soft p span {
+        display: inline-block;
+        border-radius: 100%;
+        background: #ff9292;
+        width: 15px;
+        height: 15px;
+        margin: 5px 0;
+        vertical-align: middle;
+    }
+}
+
+
+
+
+
+
+
+/* tablet02 */
+@media (min-width:1025px) and (max-width:1366px) {
+
+    /*page1*/
+    .page1 {
+        margin: 95px auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .page1 article {
+        text-align: center;
+        margin: 5px;
+        padding: 0 50px;
+    }
+
+    .page1 article h2 {
+        white-space: pre-line;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .page1 article p {
+        white-space: pre-line;
+        line-height: 1.8;
+    }
+
+    .page1 article span {
+        position: absolute;
+        top: 150px;
+        left: 140px;
+        animation: rotate 3s linear infinite;
+        transform-origin: 50% 50%;
+    }
+
+
+    .detail div {
+        margin: 35px;
+    }
+
+
+
+
+    /*infomation*/
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .info p strong {
+        display: inline-block;
+        width: 100px;
+    }
+
+
+
+
+
+    /*education*/
+    .edu strong {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+    /*career*/
+    .career strong {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+    /*page2*/
+    .page2 {
+        display: inline-block;
+        margin: 0px auto;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .page2 div {
+        margin: 0 auto;
+    }
+
+    .page2 strong {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    /*design skill*/
+    .design p {
+        width: 45%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+
+
+
+
+    /*hard skill*/
+    .hard p {
+        width: 45%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+
+
+
+    /*soft skill*/
+    .soft p {
+        width: 45%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+}
